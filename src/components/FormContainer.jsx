@@ -30,11 +30,11 @@ const FormContainer = ({arrThoughts, setArrThoughts, arrGoals, setArrGoals}) => 
 
   return (
     <div className='mt-12 box-border w-11/12 bg-gradient-to-b 
-    from-green-100 to-green-200 border-white border-4
+    from-green-300 to-green-500 border-white border-4
     min-h-[20rem] h-[40%] shadow-inner p-5
     flex flex-col items-stretch justify-evenly'>
-        <h1 className='text-center font-mono font-bold text-green-600
-        text-2xl mb-2 border-b-4 border-green-600'>This is a SaFe SpAcE for YOU</h1>
+        <h1 className='text-center font-mono font-bold text-green-800
+        text-2xl mb-2 border-b-4 border-green-800'>This is a SaFe SpAcE for YOU</h1>
         <textarea className='border-green-300 border-4 h-[5rem] p-4
         text-lg s:mb-4' value={textAreaValue} onChange={handleTextAreaChange}/>
         <ButtonContainer onGoalClick={handleGoalClick} onThoughtCLick={handleThoughtClick} />

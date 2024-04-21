@@ -18,9 +18,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: radial-gradient(var(--css-col-3) 10%, var(--css-col-4) 150%) no-repeat;
+  background-image: url("../public/background.jpg");
   height: 100vh;
-  overflow: hidden;
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+  
+}
+body::-webkit-scrollbar-track {
+  background-color: var(--css-col-3);
+  
+}
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(36, 92, 36);
+  
 }
 
 @media only screen and (max-width:450px) {
