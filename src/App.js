@@ -49,7 +49,7 @@ function App() {
             })}
             </div>
             <h2 className="text-center font-mono text-xl">Thoughts</h2>
-            <div className="bg-green-300 text-center w-[3rem] s:w-[18rem] flex flex-col items-center break-words">
+            <div className="bg-green-300 text-center w-[30rem] s:w-[18rem] flex flex-col items-center break-words">
             {arrThoughts.map(thought => {
               return <p className="max-w-[30rem] block mb-2"><i>💭</i>{thought}</p>
             })}
