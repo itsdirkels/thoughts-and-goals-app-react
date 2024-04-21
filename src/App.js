@@ -45,7 +45,7 @@ function App() {
             <h2 className="text-center font-mono text-xl">Goals</h2>
             <div className="bg-green-300 w-[38rem] break-words s:w-[18rem] flex flex-col items-center ">
             {arrGoals.map(goal => {
-              return <p className="max-w-[30rem] block mb-2"><i>✍️</i>{goal}</p>
+              return <p className="max-w-[38rem] block mb-2"><i>✍️</i>{goal}</p>
             })}
             </div>
             <h2 className="text-center font-mono text-xl">Thoughts</h2>
